@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter <input id="inp1"/>
+    <button onclick="func()">Click</button>
+    <p id="p1"></p>
+
+    <script>
+        ar = [1,2, 3,4,5,6,7,8,9];
+        function func(){
+        var gift1=5;
+        var gift2=4;
+        var gift3=9;
+        var element = parseInt(document.getElementById("inp1").value);
+       console.log(element)
+       console.log(ar.includes(element))
+       console.log(element==gift1)
+       if((element==gift1 || element==gift2 || element==gift3) && ar.includes(element)){
+        alert("gift!!")
+        ar = ar.filter(item => !(item == element));
+        console.log(ar)
+         // [1, 2, 3]
+       }
+       
+       else{
+        alert("Duplicate Value spotted")
+       }
+
+       /*for(i=0;i<9;i++){
+        console.log(arr[i])
+        if(element==arr[i]){
+           //alert("gift!!");
+           //console.log(arr[i]);
+           //break;
+           arr.shift(arr[element-1]);
+           break;
+       }
+       
+    }
+    console.log(arr[element])*/
+
+}
+    </script>
+</body>
+</html>

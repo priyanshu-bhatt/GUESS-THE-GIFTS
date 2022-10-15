@@ -53,6 +53,35 @@ const  gift1=Math.floor(Math.random() * 9)+1
                           
                     }
                    }
+
+
+            /*if(input_value==gift1 || input_value==gift2 || input_value==gift3){
+                //collection[document.getElementById("inp1").value-1].innerHTML =
+                console.log(collection[input_value-1].innerHTML);
+                collection[input_value-1].innerHTML="Gift!!";
+                collection[input_value-1].style.background="linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722)";
+                win_counter++;
+                if(win_counter==3){
+                    collection[input_value-1].innerHTML= "<a style='text-decoration:none;' href='#popup1'>Reedem Gift!!</a>";
+                    document.getElementById("accuracy").innerHTML="<b>You took "+ (loose_counter+ win_counter) +"chances to Win</b>";
+                    win_counter=0;
+                }
+                
+            }
+            else{
+                    if( input_value === '' ){
+                        alert('empty');
+                      }
+                if(input_value!=gift1 && input_value!=gift2 && input_value!=gift3)
+                {    loose_counter++;
+                console.log("loose"+loose_counter)
+                alert("Oops!! Try Again");
+                }
+                //alert("Opps!!! Try Again")
+                }
+                               
+            }*/
+        
         }
 
         
