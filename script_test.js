@@ -59,11 +59,9 @@ const  gift1=Math.floor(Math.random() * 9)+1
                 alert("Oops!! Try Again");
                 }
                 //alert("Opps!!! Try Again")
-                }
-                
-                
-                               
+                }                  
             }
+            
         
             
         

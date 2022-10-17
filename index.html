@@ -8,8 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+
+
+<body class="body">
+  <marquee  behavior="scroll" direction="left" scrollamount="13">
+    <img id="marq" src="https://www.animatedimages.org/data/media/359/animated-santa-claus-image-0420.gif"   width="30%" height="auto" margin-top="-100px" alt="Natural" />
+  </marquee>
+
+  <h1 class="glow" id="glow">ARE YOU READY</h1>
+  <button id="main-button" onclick="showHidden()">Lets'Go</button>
+  
+  <div id="hidden">
     <h1 style="text-align: center;">Guess The Gifts in the Grid</h1>
+    
     <div class="grid-container">
         <div id="id1" class="grid-item"> 1</div>
         <div id="id2"class="grid-item"> 2</div>
@@ -26,6 +37,7 @@
 
       <button id="b1" onclick="fun()">Guess</button>
 
+    </div>
 
 <!-- POP CODE STARTS FROM HERE-->
 <div id="popup1" class="overlay">
@@ -53,6 +65,7 @@
     </div>
   </div>
 </div>
+
 </body>
 </html>
 

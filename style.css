@@ -4,8 +4,8 @@
     gap: 10px 10px;
    
     grid-template-columns: auto auto auto;
-    
     padding: 10px;
+    
   }
   .grid-item {
     background-color: #eba544;
@@ -14,12 +14,14 @@
     font-size: 30px;
     text-align: center;
     font-family:fantasy ;
+    
   }
   #text{
       
       text-align: center;
       margin-right:10px;
       font-size: 22px;
+      
   }
   #inp1{
       text-align: center;
@@ -27,6 +29,7 @@
       width:300px;
       height: 40px;
       border-radius: 30px;
+      
   }
   #inp1:focus{
       font-weight: bolder;
@@ -160,6 +163,76 @@
   .expire {
     color: red;
   }
-  body{
-      background-image:url("https://img.freepik.com/premium-vector/lots-colorful-tiny-confetti-ribbons-transparent-background_220217-3295.jpg?w=2000");
+  #hidden{display: none;}
+  .body {
+   margin-top: auto;
+    /*background-color: #fc3153;*/
+    background-image:url("https://img.freepik.com/premium-vector/lots-colorful-tiny-confetti-ribbons-transparent-background_220217-3295.jpg?w=2000");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+    /*Added*/
+    
   }
+  
+  /*.bodycss{
+  :url("https://img.freepik.com/premium-vector/lots-colorful-tiny-confetti-ribbons-transparent-background_220217-3295.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+  }*/
+  
+  #glow {
+    margin-top: -50px;
+    font-size: 140pt;
+    font-family: 'Luckiest Guy';
+    color: whitesmoke;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:   0px -6px 0 #212121,  
+                   0px -6px 0 #212121,
+                   0px  6px 0 #212121,
+                   0px  6px 0 #212121,
+                  -6px  0px 0 #212121,  
+                   6px  0px 0 #212121,
+                  -6px  0px 0 #212121,
+                   6px  0px 0 #212121,
+                  -6px -6px 0 #212121,  
+                   6px -6px 0 #212121,
+                  -6px  6px 0 #212121,
+                   6px  6px 0 #212121,
+                  -6px  18px 0 #212121,
+                   0px  18px 0 #212121,
+                   6px  18px 0 #212121,
+                   0 19px 1px rgba(0,0,0,.1),
+                   0 0 6px rgba(0,0,0,.1),
+                   0 6px 3px rgba(0,0,0,.3),
+                   0 12px 6px rgba(0,0,0,.2),
+                   0 18px 18px rgba(0,0,0,.25),
+                   0 24px 24px rgba(0,0,0,.2),
+                   0 36px 36px rgba(0,0,0,.15);
+      }
+      #main-button{
+        display: inline-block;
+        margin: bottom 10px;
+        width:300px;
+        height:50px;
+        border-radius: 30px;
+        margin-top: -20px;
+      }
+      #main-button:hover{
+        background-color: greenyellow;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: 'Luckiest Guy';
+      
+      }
+      /*https://img.freepik.com/premium-vector/lots-colorful-tiny-confetti-ribbons-transparent-background_220217-3295.jpg?w=2000
+      https://wallup.net/wp-content/uploads/2017/11/22/392573-lights-bokeh.jpg*/
+      #marq{
+      display: inline;
+    }

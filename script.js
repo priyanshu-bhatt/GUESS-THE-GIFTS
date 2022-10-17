@@ -54,5 +54,17 @@ const  gift1=Math.floor(Math.random() * 9)+1
                     }
                    }
         }
+        function showHidden(){
+        document.getElementById("hidden").style.display = "grid";
+        document.getElementById("glow").style.display = "none";
+        document.getElementById("marq").style.display = "none";
+        document.getElementById("main-button").style.display = "none";
+        
+        //document.getElementById("text").style.removeProperty('font-size');
+        //document.getElementById("body").removeAttribute("class");
+        //document.getElementById("body").setAttribute("class", "bodycss"); 
+        
+
+}
 
         
