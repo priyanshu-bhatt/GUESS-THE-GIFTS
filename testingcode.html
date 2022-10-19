@@ -1,4 +1,4 @@
-<h1 class="glow">GLOWING TEXT</h1>
+<!-- <h1 class="glow">GLOWING TEXT</h1>
 
 <style>
     body {
@@ -22,4 +22,22 @@
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
-</style>
+<audio id="sound1" src="GameSound.mp3" preload="auto"></audio>
+<button onclick="document.getElementById('sound1').play();">Play it</button>
+</style> -->
+
+<audio id="lets-go" src="GameSound.mp3" preload="auto"></audio>
+<button onclick="playAudio()">click To Start</button>
+<button onclick="pauseAudio()">Pause</button>
+
+<script>
+  
+  var x=document.getElementById("lets-go")
+  function playAudio(){
+    x.play()
+  }
+  function pauseAudio(){
+    x.pause();
+  }
+</script>
+

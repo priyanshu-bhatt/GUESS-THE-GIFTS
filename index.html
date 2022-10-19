@@ -9,6 +9,10 @@
     <title>Document</title>
 </head>
 
+<audio id="lets-go" src="GameSound.mp3" preload="auto"></audio>
+<audio id="gift-found" src="game button sound.mp3" preload="auto"></audio>
+<audio id="redeem" src="redem.mp3" preload="auto"></audio>
+<audio id="loose" src="loosesound.wav" preload="auto"></audio>
 
 <body class="body">
   <marquee  behavior="scroll" direction="left" scrollamount="13">
@@ -16,10 +20,10 @@
   </marquee>
 
   <h1 class="glow" id="glow">ARE YOU READY</h1>
-  <button id="main-button" onclick="showHidden()">Lets'Go</button>
+  <button id="main-button" onclick="showHidden();document.getElementById('lets-go').play();">Lets'Go</button>
   
   <div id="hidden">
-    <h1 style="text-align: center;">Guess The Gifts in the Grid</h1>
+    <h1 style="text-align: center; ">Guess The Gifts in the Grid</h1>
     
     <div class="grid-container">
         <div id="id1" class="grid-item"> 1</div>
